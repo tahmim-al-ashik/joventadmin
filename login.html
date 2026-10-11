@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovent Admin — Sign In</title>
+    <link rel="icon" type="image/png" href="assets/logo-mark.png">
+    <link rel="stylesheet" href="assets/css/admin.css">
+</head>
+<body>
+
+<div class="login-wrap" id="loginWrap">
+    <div class="login-card">
+        <img class="brand-mark" src="assets/logo-mark.png" alt="Jovent">
+        <h1>JOVENT</h1>
+        <div class="sub">Admin Command Center</div>
+        <form id="loginForm">
+            <div class="login-err" id="liErr">Invalid credentials — try the demo access below.</div>
+            <div class="field f-field"><label>Email address</label><input type="text" id="liEmail" placeholder="admin@jovent.com" autocomplete="username"></div>
+            <div class="field f-field"><label>Password</label><input type="password" id="liPass" placeholder="••••••••" autocomplete="current-password"></div>
+            <button type="submit" class="btn btn-gold btn-block" style="justify-content:center">Sign In</button>
+        </form>
+        <div class="login-hint">Demo access — email <b>admin@jovent.com</b> · password <b>jovent123</b><br><br><button class="btn btn-ghost btn-block" id="demoBtn" style="justify-content:center">One-Click Demo Login</button></div>
+    </div>
+</div>
+
+
+
+<script src="assets/js/admin.js"></script>
+</body>
+</html>
